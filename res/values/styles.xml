@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme" parent="@android:style/Theme" />
+    <style name="Theme.PhaseText" parent="@style/Theme">
+        <item name="android:textSize">22.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ffccffcc</item>
+    </style>
+    <style name="Theme.PhaseNoteText" parent="@style/Theme">
+        <item name="android:textSize">12.0sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#ffbbbbbb</item>
+        <item name="android:gravity">center|top</item>
+    </style>
+    <style name="Theme.ValueText" parent="@style/Theme">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ffc5d5ff</item>
+        <item name="android:gravity">bottom|center|left</item>
+    </style>
+    <style name="Theme.LabelText" parent="@style/Theme">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:gravity">bottom|center|right</item>
+        <item name="android:paddingRight">4.0dip</item>
+    </style>
+    <style name="Theme.TimeValueText" parent="@style/Theme">
+        <item name="android:textSize">20.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ffc5d5ff</item>
+        <item name="android:gravity">bottom|center</item>
+    </style>
+    <style name="Theme.TimeLabelText" parent="@style/Theme">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:gravity">bottom|center</item>
+    </style>
+    <style name="Theme.TimeDiffText" parent="@style/Theme">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#ff8399d2</item>
+        <item name="android:gravity">bottom|center</item>
+        <item name="android:paddingBottom">2.0dip</item>
+    </style>
+    <style name="Theme.ListTimeText" parent="@style/Theme">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">#ffc5d5ff</item>
+        <item name="android:layout_width">77.0sp</item>
+    </style>
+    <style name="Theme.HelpLabelText" parent="@style/Theme">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ffc5d5ff</item>
+        <item name="android:gravity">bottom|center|left</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="Theme.HelpDescText" parent="@style/Theme">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">8.0dip</item>
+    </style>
+</resources>

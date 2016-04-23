@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MoonShine Free</string>
+    <string name="contact_subject">MoonShine Free</string>
+    <string name="email">baddaddyapps@gmail.com</string>
+    <string name="error_alert">An unexpected error has occurred. Would you like to send the error in an email to the developer?</string>
+    <string name="help">MoonShine Help</string>
+    <string name="monthly_view">MoonShine Monthly View</string>
+    <string name="no_services">"Location Services are disabled in Phone > Settings. 
+ 
+You must have at least one location service enabled. 
+"</string>
+    <string name="title_location">Location</string>
+    <string name="no_days">No days to display</string>
+    <string name="no_locations">No locations to display</string>
+    <string name="location_name">Location Name</string>
+    <string name="location_name_desc">"Displays the name of the location being viewed. If the name of the phone's current location cannot be retrieved, Unknown will display."</string>
+    <string name="location_index">Location Index</string>
+    <string name="location_index_desc">Displays the index of the location being viewed as well as the total number of locations. The current location of the phone will always be index #1. Swipe your finger up/down on the screen to page through the saved locations.</string>
+    <string name="coordinates">Coordinates</string>
+    <string name="coordinates_desc">Displays the coordinates of the location being viewed.</string>
+    <string name="location_current">current Location</string>
+    <string name="location_current_desc">If the location being viewed is the current location of the phone and not a saved location, the text (current) will display.</string>
+    <string name="moon_image">Moon Image</string>
+    <string name="moon_image_desc">Displays an image showing an approximate representation of the current moon.</string>
+    <string name="moon_phase">Moon Phase</string>
+    <string name="moon_phase_desc">Displays the current moon phase.</string>
+    <string name="moon_visibility">Moon Visibility</string>
+    <string name="moon_visibility_desc">"If the moon is currently visible from the phone's location, the text moon is currently visible will be displayed. This information is based on an unobstructed view of the horizon in a level area."</string>
+    <string name="rise">Rise</string>
+    <string name="rise_desc">"Represents the time when the upper edge of the disk of the moon crests the Earth's horizon."</string>
+    <string name="set">Set</string>
+    <string name="set_desc">"Represents the time when the upper edge of the disk of the moon falls below the Earth's horizon."</string>
+    <string name="transit">Transit</string>
+    <string name="transit_desc">Represents the time at which the moon is highest in the sky on any given day.</string>
+    <string name="illumination">Illumination</string>
+    <string name="illumination_desc">"Indicates the percent of the moon's visible surface illuminated by the sun."</string>
+    <string name="age">Age</string>
+    <string name="age_desc">The number of days since the last new moon.</string>
+    <string name="distance">Distance</string>
+    <string name="distance_desc">Approximate distance in kilometers from the center of the Earth to the center of the moon.</string>
+    <string name="size">Size</string>
+    <string name="size_desc">"An approximation, based on the distance of the moon, that indicates the size of the moon relative to it's size at perigee (closest piont). Given as % of Max, where Max is the size of the moon at the closest point of its orbit."</string>
+    <string name="next_full">Next Full Moon</string>
+    <string name="next_full_desc">Represents the date of the next full moon.</string>
+    <string name="next_new">Next New Moon</string>
+    <string name="next_new_desc">Represents the date of the next new moon.</string>
+    <string name="about">About MoonShine</string>
+    <string name="about_disclaimer">"MoonShine by Bad Daddy Apps 
+
+ Times are based on an unobstructed view of the horizon in a level region. 
+
+ All times, measurements and images should be considered approximations. No guarantee of accuracy is made."</string>
+    <string name="about_info">Please email the developer with any question, comments, bug reports or suggestions at baddaddy7@gmail.com</string>
+</resources>

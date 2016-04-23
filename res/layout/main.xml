@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="1" android:background="@drawable/background" android:layout_width="-1" android:layout_height="-1">
+    <LinearLayout android:id="@id/LocationLayout" android:layout_width="-1" android:layout_height="-2" android:layout_margin="4dp" android:layout_weight="0.0" android:layout_alignParentTop="true">
+        <TextView android:textColor="#fff" android:gravity="3" android:id="@id/locationNameDisplay" android:layout_width="-1" android:layout_height="-2" android:layout_weight="1.2" />
+        <TextView android:textColor="#fff" android:gravity="5" android:id="@id/locationDisplay" android:layout_width="-1" android:layout_height="-2" android:text="99.9999, -99.9999" android:layout_weight="1.0" />
+    </LinearLayout>
+    <LinearLayout android:id="@id/divider01" android:background="#555555" android:layout_width="-1" android:layout_height="1dp" android:layout_below="@id/LocationLayout" />
+    <LinearLayout android:layout_gravity="11" android:orientation="1" android:id="@id/PhaseLayout" android:paddingTop="2dp" android:layout_width="-1" android:layout_height="-2" android:layout_weight="0.0" android:layout_below="@id/divider01">
+        <RelativeLayout android:gravity="1" android:layout_gravity="31" android:id="@id/RelativeLayout01" android:layout_width="-1" android:layout_height="-2">
+            <ImageView android:id="@id/moonPanelImage" android:layout_width="-1" android:layout_height="-2" android:src="@drawable/bg_panel" android:adjustViewBounds="true" />
+            <ImageView android:layout_gravity="31" android:id="@id/moonPhaseImage" android:paddingTop="3dp" android:layout_width="-1" android:layout_height="-2" android:src="@drawable/moonphase20" android:adjustViewBounds="true" android:maxWidth="175dp" android:maxHeight="175dp" />
+            <ImageView android:id="@id/moonPhaseImage2" android:paddingTop="3dp" android:visibility="1" android:layout_width="-1" android:layout_height="-2" android:src="@drawable/moonphase20" android:adjustViewBounds="true" android:maxWidth="175dp" android:maxHeight="175dp" />
+            <ImageView android:id="@id/moonIllumIcon" android:paddingLeft="10dp" android:paddingBottom="20dp" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:src="@drawable/ic_illum" android:adjustViewBounds="true" android:layout_alignLeft="@id/moonPanelImage" android:layout_alignBottom="@id/moonPanelImage" />
+            <TextView android:textSize="12sp" android:textStyle="1" android:gravity="11" android:id="@id/moonIllumText" android:visibility="2" android:layout_width="30dp" android:layout_height="-2" android:layout_marginTop="17dp" android:layout_marginRight="7dp" android:text="100" android:layout_alignTop="@id/moonIllumIcon" android:layout_alignRight="@id/moonIllumIcon" />
+            <ImageView android:id="@id/moonAgeIcon" android:paddingRight="10dp" android:paddingBottom="20dp" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:src="@drawable/ic_age" android:adjustViewBounds="true" android:layout_alignRight="@id/moonPanelImage" android:layout_alignBottom="@id/moonPanelImage" />
+            <TextView android:textSize="12sp" android:textStyle="1" android:gravity="11" android:id="@id/moonAgeText" android:visibility="2" android:layout_width="27dp" android:layout_height="-2" android:layout_marginTop="21dp" android:layout_marginRight="20dp" android:text="99" android:layout_alignTop="@id/moonAgeIcon" android:layout_alignRight="@id/moonAgeIcon" />
+            <TextView android:textAppearance="?unknown_attr_ref: 1010042" android:textColor="#c5d5ff" android:id="@id/locationNumberDisplay" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="4dp" android:text="1 / 4" android:layout_alignTop="@id/moonPhaseImage" />
+            <TextView android:textAppearance="?unknown_attr_ref: 1010042" android:textColor="#c5d5ff" android:id="@id/locationCurrentDisplay" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="4dp" android:text="(current)" android:layout_alignTop="@id/moonPhaseImage" android:layout_alignRight="@id/moonPhaseImage" />
+            <TextView android:gravity="11" android:layout_gravity="11" android:id="@id/moonPhaseDisplay" android:layout_width="-1" android:layout_height="-2" android:text="Moon Phase" android:shadowColor="#000000" android:shadowDx="1.0" android:shadowDy="1.0" android:shadowRadius="1.0" android:layout_below="@id/moonPhaseImage" style="@style/Theme_TimeValueText" />
+            <ImageView android:id="@id/moonVisibleIcon" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:src="@drawable/ic_visible" android:adjustViewBounds="true" android:maxWidth="32sp" android:minHeight="32sp" android:layout_alignRight="@id/moonPhaseDisplay" android:layout_alignBottom="@id/moonPhaseDisplay" />
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout android:id="@id/divider02" android:background="#555555" android:visibility="2" android:layout_width="-1" android:layout_height="1dp" android:layout_marginTop="5dp" android:layout_below="@id/PhaseLayout" />
+    <TableLayout android:layout_gravity="10" android:id="@id/TimeTableLayout" android:paddingBottom="5dp" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="3dp" android:layout_weight="1.0" android:layout_below="@id/PhaseLayout">
+        <TableRow android:id="@id/RiseRow" android:layout_width="-1" android:layout_height="-2">
+            <TextView android:layout_width="-1" android:layout_height="-2" android:text="Rise" android:layout_weight="1.0" style="@style/Theme_TimeLabelText" />
+            <TextView android:layout_width="-1" android:layout_height="-1" android:text="Transit" android:layout_weight="1.0" style="@style/Theme_TimeLabelText" />
+            <TextView android:layout_width="-1" android:layout_height="-1" android:text="Set" android:layout_weight="1.0" style="@style/Theme_TimeLabelText" />
+        </TableRow>
+        <TableRow android:id="@id/SetRow" android:layout_width="-1" android:layout_height="-2">
+            <TextView android:id="@id/riseDisplay" android:layout_width="-1" android:layout_height="-2" android:text="99:99" android:layout_weight="1.0" style="@style/Theme_TimeValueText" />
+            <TextView android:id="@id/transitDisplay" android:layout_width="-1" android:layout_height="-2" android:text="99:99" android:layout_weight="1.0" style="@style/Theme_TimeValueText" />
+            <TextView android:id="@id/setDisplay" android:layout_width="-1" android:layout_height="-2" android:text="99:99" android:layout_weight="1.0" style="@style/Theme_TimeValueText" />
+        </TableRow>
+        <TableRow android:id="@id/TransitRow" android:layout_width="-1" android:layout_height="-2">
+            <TextView android:id="@id/riseDiffDisplay" android:layout_width="-1" android:layout_height="-2" android:text="+99:99" android:layout_weight="1.0" style="@style/Theme_TimeDiffText" />
+            <TextView android:id="@id/transitDiffDisplay" android:layout_width="-1" android:layout_height="-2" android:text="+99:99" android:layout_weight="1.0" style="@style/Theme_TimeDiffText" />
+            <TextView android:id="@id/setDiffDisplay" android:layout_width="-1" android:layout_height="-2" android:text="+99:99" android:layout_weight="1.0" style="@style/Theme_TimeDiffText" />
+        </TableRow>
+    </TableLayout>
+    <TableLayout android:id="@id/TableLayout03" android:paddingBottom="5dp" android:layout_width="-1" android:layout_height="-2" android:layout_weight="1.0" android:layout_below="@id/TimeTableLayout">
+        <TableRow android:id="@id/TableRow11" android:layout_width="-2" android:layout_height="-1" android:layout_weight="0.0">
+            <TextView android:layout_width="-1" android:layout_height="-2" android:text="Illuminated:" android:layout_weight="1.0" style="@style/Theme_LabelText" />
+            <TextView android:id="@id/illuminatedDisplay" android:layout_width="-1" android:layout_height="-2" android:text="100%" android:layout_weight="1.0" style="@style/Theme_ValueText" />
+            <TextView android:layout_width="-1" android:layout_height="-2" android:text="Age:" android:layout_weight="1.0" style="@style/Theme_LabelText" />
+            <TextView android:id="@id/ageDisplay" android:layout_width="-1" android:layout_height="-2" android:text="99 days" android:layout_weight="1.0" style="@style/Theme_ValueText" />
+        </TableRow>
+        <TableRow android:id="@id/TableRow04" android:layout_width="-2" android:layout_height="-1" android:layout_weight="0.0">
+            <TextView android:layout_width="-1" android:layout_height="-2" android:text="Perigee:" android:layout_weight="1.0" style="@style/Theme_LabelText" />
+            <TextView android:id="@id/perigeeDisplay" android:layout_width="-1" android:layout_height="-2" android:text="100%" android:layout_weight="1.0" style="@style/Theme_ValueText" />
+            <TextView android:layout_width="-1" android:layout_height="-2" android:text="Distance:" android:layout_weight="1.0" style="@style/Theme_LabelText" />
+            <TextView android:id="@id/distanceDisplay" android:layout_width="-1" android:layout_height="-2" android:text="999999km" android:layout_weight="1.0" style="@style/Theme_ValueText" />
+        </TableRow>
+    </TableLayout>
+    <TableLayout android:id="@id/TableLayout02" android:layout_width="-1" android:layout_height="-2" android:layout_weight="1.0" android:layout_below="@id/TableLayout03">
+        <TableRow android:id="@id/TableRow08" android:layout_width="-2" android:layout_height="-2">
+            <TextView android:layout_width="-1" android:layout_height="-2" android:text="Next New Moon:" android:layout_weight="1.0" style="@style/Theme_LabelText" />
+            <TextView android:id="@id/nextNewDisplay" android:layout_width="-1" android:layout_height="-2" android:text="Wed, Nov 22, 2010" android:layout_weight="1.0" style="@style/Theme_ValueText" />
+        </TableRow>
+        <TableRow android:id="@id/TableRow09" android:layout_width="-2" android:layout_height="-2">
+            <TextView android:layout_width="-1" android:layout_height="-2" android:text="Next Full Moon:" android:layout_weight="1.0" style="@style/Theme_LabelText" />
+            <TextView android:id="@id/nextFullDisplay" android:layout_width="-1" android:layout_height="-2" android:text="Mon, Dec 22, 2020" android:layout_weight="1.0" style="@style/Theme_ValueText" />
+        </TableRow>
+    </TableLayout>
+    <RelativeLayout android:id="@id/DateButtonLayout" android:layout_width="-1" android:layout_height="-2" android:layout_margin="2dp" android:layout_weight="1.0" android:layout_alignParentBottom="true">
+        <Button android:id="@id/prevDayBtn" android:layout_width="60dp" android:layout_height="50dp" android:text="Prev" android:layout_alignParentLeft="true" />
+        <Button android:textSize="16sp" android:textStyle="1" android:id="@id/dateBtn" android:layout_width="-1" android:layout_height="50dp" android:text="Sun, Jan 99, 9999" android:layout_weight="1.0" android:layout_toLeftOf="@id/nextDayBtn" android:layout_toRightOf="@id/prevDayBtn" />
+        <Button android:id="@id/nextDayBtn" android:layout_width="60dp" android:layout_height="50dp" android:text="Next" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+</RelativeLayout>

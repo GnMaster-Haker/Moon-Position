@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+    <LinearLayout android:layout_gravity="50" android:orientation="1" android:id="@id/locationFieldsLayout" android:layout_width="-1" android:layout_height="-2" android:layout_margin="5dp">
+        <TextView android:id="@id/locNameText" android:layout_width="-2" android:layout_height="-2" android:text="Location Name" style="?unknown_attr_ref: 1010040" />
+        <EditText android:id="@id/locName" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="10dp" android:inputType="1" />
+        <TextView android:id="@id/locLatitudeText" android:layout_width="-2" android:layout_height="-2" android:text="Latitude" style="?unknown_attr_ref: 1010040" />
+        <EditText android:id="@id/locLatitude" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="10dp" android:layout_weight="1.0" />
+        <TextView android:id="@id/locLongitudeText" android:layout_width="-2" android:layout_height="-2" android:text="Longitude" style="?unknown_attr_ref: 1010040" />
+        <EditText android:id="@id/locLongitude" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="10dp" android:layout_weight="1.0" android:inputType="2002" />
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="50" android:orientation="0" android:id="@id/locationButtonLayout" android:layout_width="-1" android:layout_height="-2" android:layout_margin="2dp" android:layout_alignParentBottom="true">
+        <Button android:id="@id/locSaveBtn" android:layout_width="-1" android:layout_height="-2" android:text="Save" android:layout_weight="1.0" />
+        <Button android:id="@id/locCancelBtn" android:layout_width="-1" android:layout_height="-2" android:text="Cancel" android:layout_weight="1.0" />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+    <LinearLayout android:id="@id/LinearLayout01" android:layout_width="-1" android:layout_height="-2" android:layout_alignParentTop="true">
+        <TextView android:textSize="16sp" android:gravity="5" android:layout_width="20dp" android:layout_height="-2" android:text="#" style="?unknown_attr_ref: 1010208" />
+        <TextView android:textSize="16sp" android:layout_width="15dp" android:layout_height="-2" style="?unknown_attr_ref: 1010208" />
+        <TextView android:textSize="16sp" android:layout_width="55dp" android:layout_height="-2" android:text="" style="?unknown_attr_ref: 1010208" />
+        <TextView android:textSize="16sp" android:layout_width="75dp" android:layout_height="-2" android:text="Phase" style="?unknown_attr_ref: 1010208" />
+        <TextView android:textSize="16sp" android:layout_width="75dp" android:layout_height="-2" android:text="Rise" style="?unknown_attr_ref: 1010208" />
+        <TextView android:textSize="16sp" android:layout_width="-1" android:layout_height="-2" android:text="Set" style="?unknown_attr_ref: 1010208" />
+    </LinearLayout>
+    <ListView android:id="0x102000a" android:layout_width="-1" android:layout_height="-1" android:drawSelectorOnTop="false" android:layout_weight="1.0" android:layout_above="@id/MonthlyButtonLayout" android:layout_below="@id/LinearLayout01" />
+    <LinearLayout android:orientation="0" android:id="@id/MonthlyButtonLayout" android:layout_width="-1" android:layout_height="-2" android:layout_alignParentBottom="true">
+        <Button android:layout_gravity="50" android:id="@id/monthlyPrevBtn" android:layout_width="-1" android:layout_height="50dp" android:text="Prev" android:layout_weight="1.0" />
+        <Button android:layout_gravity="50" android:id="@id/monthlyNextBtn" android:layout_width="-1" android:layout_height="50dp" android:text="Next" android:layout_weight="1.0" />
+    </LinearLayout>
+</RelativeLayout>

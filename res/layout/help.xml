@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:background="@drawable/background" android:padding="3sp" android:layout_width="-1" android:layout_height="-1">
+    <ScrollView android:id="@id/ScrollView01" android:layout_width="-1" android:layout_height="-1">
+        <LinearLayout android:orientation="1" android:id="@id/LinearLayout01" android:layout_width="-2" android:layout_height="-2">
+            <TextView android:id="@id/TextView01" android:text="@string/location_name" style="@style/Theme_HelpLabelText" />
+            <TextView android:id="@id/TextView02" android:text="@string/location_name_desc" style="@style/Theme_HelpDescText" />
+            <TextView android:id="@id/TextView01" android:text="@string/coordinates" style="@style/Theme_HelpLabelText" />
+            <TextView android:id="@id/TextView02" android:text="@string/coordinates_desc" style="@style/Theme_HelpDescText" />
+            <TextView android:id="@id/TextView01" android:text="@string/moon_image" style="@style/Theme_HelpLabelText" />
+            <TextView android:id="@id/TextView02" android:text="@string/moon_image_desc" style="@style/Theme_HelpDescText" />
+            <TextView android:id="@id/TextView01" android:text="@string/moon_phase" style="@style/Theme_HelpLabelText" />
+            <TextView android:id="@id/TextView02" android:text="@string/moon_phase_desc" style="@style/Theme_HelpDescText" />
+            <TextView android:id="@id/TextView01" android:text="@string/rise" style="@style/Theme_HelpLabelText" />
+            <TextView android:id="@id/TextView02" android:text="@string/rise_desc" style="@style/Theme_HelpDescText" />
+            <TextView android:id="@id/TextView01" android:text="@string/set" style="@style/Theme_HelpLabelText" />
+            <TextView android:id="@id/TextView02" android:text="@string/set_desc" style="@style/Theme_HelpDescText" />
+            <TextView android:id="@id/TextView01" android:text="@string/transit" style="@style/Theme_HelpLabelText" />
+            <TextView android:id="@id/TextView02" android:text="@string/transit_desc" style="@style/Theme_HelpDescText" />
+            <TextView android:id="@id/TextView01" android:text="@string/illumination" style="@style/Theme_HelpLabelText" />
+            <TextView android:id="@id/TextView02" android:text="@string/illumination_desc" style="@style/Theme_HelpDescText" />
+            <TextView android:id="@id/TextView01" android:text="@string/age" style="@style/Theme_HelpLabelText" />
+            <TextView android:id="@id/TextView02" android:text="@string/age_desc" style="@style/Theme_HelpDescText" />
+            <TextView android:id="@id/TextView01" android:text="@string/distance" style="@style/Theme_HelpLabelText" />
+            <TextView android:id="@id/TextView02" android:text="@string/distance_desc" style="@style/Theme_HelpDescText" />
+            <TextView android:id="@id/TextView01" android:text="@string/next_full" style="@style/Theme_HelpLabelText" />
+            <TextView android:id="@id/TextView02" android:text="@string/next_full_desc" style="@style/Theme_HelpDescText" />
+            <TextView android:id="@id/TextView01" android:text="@string/next_new" style="@style/Theme_HelpLabelText" />
+            <TextView android:id="@id/TextView02" android:text="@string/next_new_desc" style="@style/Theme_HelpDescText" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

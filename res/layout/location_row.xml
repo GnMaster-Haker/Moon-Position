@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:id="@id/locEditRowName" android:padding="10dp" android:layout_width="-1" android:layout_height="-2" android:text="ateST" style="?unknown_attr_ref: 1010040" />

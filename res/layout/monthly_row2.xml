@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/LinearLayout01" android:background="#222" android:layout_width="-1" android:layout_height="-1">
+    <TextView android:textSize="16sp" android:textColor="#fff" android:gravity="5" android:id="@id/monthlyDay" android:layout_width="20dp" android:layout_height="-2" android:layout_marginTop="5px" android:text="31" />
+    <TextView android:textSize="12sp" android:textColor="#888" android:gravity="3" android:id="@id/monthlyWeekday" android:layout_width="18dp" android:layout_height="-2" android:layout_marginTop="5px" android:text="M" />
+    <ImageView android:id="@id/monthlyIcon" android:longClickable="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="3px" android:layout_marginBottom="3px" android:src="@drawable/moonphase15" android:adjustViewBounds="true" android:maxWidth="25sp" android:maxHeight="25sp" android:minWidth="25sp" android:minHeight="25sp" />
+    <TextView android:textSize="12sp" android:textColor="#888" android:id="@id/monthlyFraction" android:layout_width="30dp" android:layout_height="-2" android:layout_marginTop="3px" android:text="100" />
+    <TextView android:textSize="16sp" android:id="@id/monthlyPhase" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="5px" android:text="Wax Gib" android:width="65sp" />
+    <TextView android:id="@id/monthlyRise" android:layout_width="-2" android:layout_height="-2" android:text="99:99 AM" android:width="75sp" style="@style/Theme_ListTimeText" />
+    <TextView android:id="@id/monthlySet" android:layout_width="-2" android:layout_height="-2" android:text="99:99 AM" android:width="75sp" android:layout_alignParentRight="true" style="@style/Theme_ListTimeText" />
+</RelativeLayout>
